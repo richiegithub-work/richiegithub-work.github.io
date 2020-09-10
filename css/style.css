@@ -1,18 +1,29 @@
 body {
-  background-imgae: url("images/27274.jpg");
+  background-image: url("/images/27274.jpg");
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+
 }
 
 h1{
-  color: white;
+  color: black;
   text-align: center;
-  background-color: black;
   margin: 100px auto;
-  width:60%;
-  border-radius: 50px;
+  width:100%;
+  font-style: initial;
+  font-family:fantasy;
+  font-size:xxx-large;
+
 }
 
-footer a{
-  text-align:center;
-  font-size:10px;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size:12px;
 }
-  
